@@ -1,0 +1,4 @@
+#!/bin/bash
+
+BOOTSTRAP_SERVERS="kafka-broker1:9092,kafka-broker2:9093,kafka-broker3:9094"
+SCHEMA_REGISTRY="http:schema-registry:8081"
