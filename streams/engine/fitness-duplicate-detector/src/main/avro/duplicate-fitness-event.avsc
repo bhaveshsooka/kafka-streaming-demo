@@ -1,0 +1,15 @@
+{
+  "type": "record",
+  "name": "DuplicateFitnessEvent",
+  "namespace": "za.co.goldmine.kafka.streams.fitness_duplicate_detector.avro",
+  "fields": [
+    {
+      "name": "COUNT_DUPLICATES",
+      "type": [
+        "null",
+        "long"
+      ],
+      "default": null
+    }
+  ]
+}

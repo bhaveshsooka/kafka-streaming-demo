@@ -1,0 +1,29 @@
+{
+  "namespace": "za.co.goldmine.kafka.streams.fitness_duplicate_detector.avro",
+  "name": "FitnessHash",
+  "doc": "Defines a hash value for a fitness event",
+  "type": "record",
+  "fields": [
+    {
+      "name": "userid",
+      "doc": "The simulated user who sent the fitness data",
+      "type": {
+        "type": "string"
+      }
+    },
+    {
+      "name": "tenant_id",
+      "doc": "The simulated tenant id",
+      "type": {
+        "type": "int"
+      }
+    },
+    {
+      "name": "MY_FRAUD_KEY",
+      "doc": "The hash value generated from a fitness event",
+      "type": {
+        "type": "string"
+      }
+    }
+  ]
+}
